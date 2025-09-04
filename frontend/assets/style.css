@@ -1,0 +1,74 @@
+/* styles placeholder */
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header / Title */
+h1, h2, h3 {
+    color: #1f4e79;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #1f4e79;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-content h2 {
+    color: #ffffff;
+}
+
+/* Buttons */
+button, .stButton>button {
+    background-color: #1f4e79;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #16375b;
+}
+
+/* Text input / text area */
+.stTextInput>div>div>input, .stTextArea>div>div>textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Chatbot box */
+.chat-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Alerts */
+.alert {
+    background-color: #fffbec;
+    border-left: 5px solid #f7c948;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Summaries */
+.summary-box {
+    background-color: #e8f0fe;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.05);
+}
